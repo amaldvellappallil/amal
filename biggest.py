@@ -1,8 +1,14 @@
 a=30
 b=40
+d=60
 
 if (a>b):
-    print(a)
+    if (a>d):
+        print(a)
+    else:
+        print(d)
 else:
-    print(b)
-        
+    if (b>d):
+        print(b)
+    else:
+         print(d)
